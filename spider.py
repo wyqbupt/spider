@@ -1,5 +1,5 @@
 import string, urllib2
-#-*-coding:utf-8-*- 
+# -*- coding: utf-8 -*-    
 def baidu_tieba(url,begin_page,end_page):
     for i in range(begin_page, end_page+1):
         sName = string.zfill(i,5) + '.html'
